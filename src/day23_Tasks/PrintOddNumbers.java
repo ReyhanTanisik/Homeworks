@@ -1,0 +1,19 @@
+package day23_Tasks;
+
+public class PrintOddNumbers {
+
+    public static void printOddNumbers(){
+        for (int i = 0; i <100 ; i++) {
+            if(i%2 != 0){
+                System.out.print(i+" ");
+            }
+
+        }
+
+
+    }
+
+    public static void main(String[] args) {
+        printOddNumbers();
+    }
+}
