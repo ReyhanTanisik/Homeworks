@@ -6,8 +6,8 @@ public class Iphone {
     public double price;
     public String color,size;
     public static String brand="Apple";
-    public static String os="ios";
-    public static String madeIn="USA";
+    public static String os="iOS";
+    public static String madeIn="China";
 
     public Iphone(String model, double price, String color, String size) {
         this.model = model;
@@ -17,10 +17,10 @@ public class Iphone {
     }
 
     public void faceTime(long phoneNumber){
-        System.out.println(phoneNumber+" is calling");
+        System.out.println(model +" is faceTiming with " +phoneNumber);
     }
     public void faceTime(String email){
-        System.out.println(email + " is calling");
+        System.out.println(model +" is face timing with "+email);
     }
 
     public void call(long phoneNumber){
